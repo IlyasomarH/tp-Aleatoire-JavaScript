@@ -1,0 +1,28 @@
+.premiertitre{
+    color: red;
+}
+
+#titre{
+
+}
+
+.sombre{
+    background-color: black;
+    color: white;
+}
+
+.clair{
+    background-color: white;
+    color: black;
+}
+
+
+#app{
+    background-color: violet;
+    color: white;
+}
+
+/* 
+.disparaitre{
+    display: none;
+} */

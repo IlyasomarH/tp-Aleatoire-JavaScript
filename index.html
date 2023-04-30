@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apprendre JavaScript</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="clair" >
+
+   
+
+
+
+
+
+
+<!--         
+  <h1 id="titre">Bienvenu dans mon site </h1>
+  <p class="p">
+    je suis un paragraphe premier
+  </p>
+  <i class="fa-regular fa-bars"></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-solid fa-xmark"></i>
+  <img src="logo.png" alt="logo" width="300px" title="logo 1"> -->
+
+  <!-- <p class="p">
+    je suis un paragraphe deuxieme
+  </p>
+
+  <p class="p">
+    je suis un paragraphe troisieme
+  </p> -->
+
+    <!-- <button onclick="document.querySelector('body').className='sombre'">joue un jeu</button>
+    <button onclick="document.querySelector('body').className='clair'">clair</button>
+ -->
+
+
+  <!-- <script src="script.js"></script> -->
+  <!-- <script src="script.js"></script> -->
+
+
+        <!--       <h2> votre somme a payé est:  <span> </span></h2>
+
+<form action="" name=""> -->
+<!-- 
+    <input type="text" name="name" id="">
+    <input type="submit" name="valide" id="" value="envoyer">
+</form>
+        -->
+
+
+
+<script >
+
+// recupere l'element (balise) html en utilisant son id 
+
+// let titre=document.getElementById('title')
+// let paragraphe=document.getElementById("para")
+
+
+
+// titre.innerHTML="j'ai reussi a changé le h1"
+
+// paragraphe.innerHTML="je suis la deuxieme paragraphe"
+
+
+// recupere l'element (balise) html en utilisant son nom de balise (tag name)
+
+
+// const titres=document.getElementsByTagName('h1')
+
+
+// recupere l'element (balise) html en utilisant son class (class name)
+
+
+// let classes=document.getElementsByClassName('h1')
+
+// console.log(classes[1].innerHTML)
+
+
+
+// recupere l'element (balise) html en utilisant son Selecteur css (css selector)
+
+
+// let titre1=document.querySelector('.premiertitre').style.color='blue'
+// const titres1=document.querySelectorAll('h1')
+
+
+
+
+
+// recuperer en utilisant querSelector
+
+
+
+// let premierbtn = document.querySelectorAll('button')
+
+
+
+
+//  function sombre(){
+
+
+//     document.querySelector('body').className='sombre'
+//  }
+
+
+ 
+//  function clair(){
+
+
+// document.querySelector('body').className='clair'
+// }
+
+
+// let total =0
+
+
+//  const article = [50, 100, 150]
+
+
+
+//  function ajouter(){
+
+//     total=total+50;
+    
+    
+//  }
+
+
+
+//     document.querySelector('span').innerHTML=total
+    
+
+
+
+// function modesombre(){
+
+//    let body= document.querySelector('body')
+
+
+//    body.style.backgroundColor="black"
+//    body.style.color='white'
+// }
+
+ 
+
+
+
+
+// document.querySelector('button').addEventListener('click',
+
+// function(){
+//     document.querySelector('p').style.display="none"
+// } )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function trouverAleatoire(){
+             let nombreAleatoire , nombre ,reconnu , chance=4
+                nombreAleatoire =Math.floor(Math.random()*20)
+
+            for (let i=0 ; i<4 ;i++){
+                   nombre=prompt("saisir un nombre entre 0 a 19")
+
+                    if(nombreAleatoire== nombre){
+                       reconnu=true
+                       break
+                    }
+                    else{
+                       reconnu= false
+                       chance--
+
+                       if(nombreAleatoire> nombre & chance >0){
+                        alert('la valeur Aleatoire est superieur mais vous avez '+ chance + ' chance ')
+
+                       }
+                       else if(nombreAleatoire< nombre & chance >0){
+                        alert('la valeur Aleatoire est inferieur mais vous avez '+ chance + ' chance' )
+                       }
+
+                       
+                    } 
+                }
+                document.write('<h1> ' + nombreAleatoire + ' </h1>')
+ 
+
+            return reconnu
+        }
+
+
+
+
+
+
+
+    let reconnu =trouverAleatoire()
+
+    if (reconnu== true){
+
+        document.write('vous avez gagné <br>')
+        
+    } 
+
+    else{
+       document.write('vous avez perdu')
+    }
+
+
+
+
+
+ //   for(let i=0; i<3; i++){
+  //      document.write("asc \n  <br>")
+
+    //}
+
+
+// function nouveauContenu()
+// {
+// alert("chargement du nouveau contenu");
+// document.open();
+// document.write("<h1>Assez de l'ancien contenu, passons au nouveau&nbsp;!</h1>");
+// document.close();
+// }
+
+
+// votre nom est 'ilyas'
+
+// votre nom est "ilyas"
+
+
+
+// ilyas c'est votre nom
+
+
+
+
+
+
+
+    //  let nom="fathia"
+    // let motdepasse=12345678
+     // let taille=1.65
+     // let age =25 
+    
+
+
+    //  let nom=prompt('saisir votre nom')
+    //  let motdepasse=prompt('saisir votre mot de passe')
+    // alert("bonsoir " + nom + " votre mot de passe " + motdepasse)
+
+
+    // let nombreAleatoire=6
+
+    // let nombre= prompt('devinez le nombre Aleatoire qui est  entre 1 et 10')
+
+
+    // while(nombre != nombreAleatoire){
+    //     nombre= prompt('devinez le nombre Aleatoire qui est  entre 1 et 10')
+    // }
+
+    // alert('vous avez gagner')
+
+    // if (nombre==nombreAleatoire){
+    //     alert("vous avez gangé")
+    // }
+    // else{
+    //     alert('vous avez perdu')
+    // }
+
+   
+
+
+
+
+    /*
+
+    boucle 
+      demander "saisir un nombre entre 1 a 10"
+
+    tant que nombre != nombreAleatoir Alors
+
+        demander "saisir un nombre entre 1 a 10"
+    
+    fintantque
+
+    afficher("vous avez gagne")
+
+
+
+
+
+    //console.log() : permet d'aficher un message 
+    //   console.log("bonsoir " +nom  + " votre taille est :" + taille + " cm " + " et votre age est : " + age + " ans ")
+    //   console.log("l'annee prochain vous serez " + (age+1))
+/*
+    if(condition){
+        instruction
+    }else if(condition){
+        instruction
+    }......
+    else{
+
+    }
+
+*/
+
+    /*
+
+    algorithme 1 
+
+    si age >=1 et age<14  // condition
+        afficher "vous etes un enfant" //Instruction
+    sinon si age>=14 et age<18
+        afficher "vous etes un adoloscent"
+    sinon si age>=18 et age<25
+        afficher "vous etes jeune"
+    sinon si age>=25 et age<40
+        afficher "vous etes adulte"
+    sinon 
+         afficher "vous etes vieux"
+
+
+
+
+    algorithme 2
+
+    si nom =='fathia' et motdepasse=12345678
+        afficher "vous etes connecter"
+
+    sinon si nom=="fathia" et motdepasse!=12345678
+        afficher "veuillez saisir un bon mot de passe "
+
+    sinon  si nom!="fathia" et motdepasse!=12345678
+        afficher 'votre nom et mot de passe sont incorrect'
+           
+    sinon 
+       afficher "desole vous ne pouvez pas se connecter sans trouver la mot de passe "
+
+
+
+
+
+       Algorithme 3
+
+
+    let nombre =0
+
+
+    si nombre> 0 
+        afficher "votre est positif"
+    else 
+        afficher "le nombre negatif "
+
+
+
+    Algorithme 4
+
+    si nombre == nombreAleatoire
+        afficher " vous avez gagner"
+    sinon 
+        afficher "vous avez perdu"
+
+
+    Algorithem 5
+
+
+    */
+
+
+
+    
+
+    // bonsoir fathia votre taille est : 1.56 cm  et votre age est : 25 ans
+
+
+    // variable
+
+    // declaration   affection 
+
+
+
+//  bonsoir neima vous avez 19 ans 
+
+
+    // let nom = 'Neima '
+
+    // let age =12
+    // let ageAnneProchaine= age +1
+    // let ageAnneProchaine = age 
+    // ageAnneProchaine += 1
+     
+//    document.write("bonsoir "  + nom + " vous avez "  + age + " ans , l'an prochain  vous serez  "+  ageAnneProchaine + " ans")
+
+//   let bol= false
+// let x=0
+// let y =13
+
+// let moyenne = (x+y)/2
+
+
+// document.write(moyenne)
+
+
+//   document.write(x==y)
+
+
+
+
+/*
+
+tout dabord declarer deux variable note1 et note2
+ ensuite trouver la moyenne de deux note 
+
+ Exerice1
+si moyenne > 10
+  affhcier (M. ilyas vous admis )
+sinon 
+  afficher (M. ilyas je suis vraiment desolé !! vous avez ajourné )
+
+
+  Exercice 2
+
+
+  si moyenne <10 
+     afficher (M. ilyas je suis vraiment desolé !! vous avez ajourné  )
+sinon si ( moyenne >=10 && moyenne <12)
+    afficher ( passable)
+sinon si (moyenne >=12 && moyenne 14)
+    afficher ( assez bien)
+sinon si (moyenne >=14 && moyenne 16)
+    afficher (  bien)
+    sinion 
+     aficher (Tres bien)
+*/
+
+
+
+
+// const formulaire=document.getElementsByTagName("form")
+
+
+//  formulaire[0].children[1].addEventListener('click', function(){
+//     alert("Ramadan Moubarek")
+//  })
+
+// console.log(formulaire[0].children)
+
+
+let valeurSaisirParUser=0
+
+
+// document.write("valeur de user avant de saisir "+ valeurSaisirParUser)
+// valeurSaisirParUser= prompt("saisir une valeur")
+// document.write('<br>')
+// document.write("valeur de user apres le saisir" + valeurSaisirParUser)
+
+
+// let valeurAleatoire=Math.random()*10
+
+// let valeurAleatoireSansVirgule=Math.floor(Math.random()*10)
+
+// let valuerUser=parseInt(prompt('definez un nombre entre 0 a 9'))
+
+// if(valeurAleatoireSansVirgule==valuerUser){
+//     document.write("bravo vous avez gagné")
+// }else{
+//     document.write("vous avez perdu, car le nombre Aleatoire etait : "+ valeurAleatoireSansVirgule )
+// }
+
+
+
+// document.write(valeurAleatoireSansVirgule)
+
+
+
+/*
+
+
+1. creer un programme en javaScript qui permet de faire le chose suivant:
+    a. generer un valeur Aleatoire compris entre 0 a 10.
+    b. demander au utilisateur de reconnaitre le valeur compris entre 0 a 9.
+    c. si le user( utilisateur ) reconnais la valeur Aleatoire affiche "brovo! vous avez gagné"
+    d. sinon vous aves perdu.
+
+
+
+
+
+*/
+</script>
+</body>
+</html>
