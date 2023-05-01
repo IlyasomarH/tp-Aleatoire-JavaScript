@@ -57,7 +57,8 @@
 
 
 
-<script >
+<script  src="script.js">
+    
 
 // recupere l'element (balise) html en utilisant son id 
 
@@ -183,37 +184,37 @@
 
 
 
-        function trouverAleatoire(){
-             let nombreAleatoire , nombre ,reconnu , chance=4
-                nombreAleatoire =Math.floor(Math.random()*20)
+    //     function trouverAleatoire(){
+    //          let nombreAleatoire , nombre ,reconnu , chance=4
+    //             nombreAleatoire =Math.floor(Math.random()*20)
 
-            for (let i=0 ; i<4 ;i++){
-                   nombre=prompt("saisir un nombre entre 0 a 19")
+    //         for (let i=0 ; i<4 ;i++){
+    //                nombre=prompt("saisir un nombre entre 0 a 19")
 
-                    if(nombreAleatoire== nombre){
-                       reconnu=true
-                       break
-                    }
-                    else{
-                       reconnu= false
-                       chance--
+    //                 if(nombreAleatoire== nombre){
+    //                    reconnu=true
+    //                    break
+    //                 }
+    //                 else{
+    //                    reconnu= false
+    //                    chance--
 
-                       if(nombreAleatoire> nombre & chance >0){
-                        alert('la valeur Aleatoire est superieur mais vous avez '+ chance + ' chance ')
+    //                    if(nombreAleatoire> nombre & chance >0){
+    //                     alert('la valeur Aleatoire est superieur mais vous avez '+ chance + ' chance ')
 
-                       }
-                       else if(nombreAleatoire< nombre & chance >0){
-                        alert('la valeur Aleatoire est inferieur mais vous avez '+ chance + ' chance' )
-                       }
+    //                    }
+    //                    else if(nombreAleatoire< nombre & chance >0){
+    //                     alert('la valeur Aleatoire est inferieur mais vous avez '+ chance + ' chance' )
+    //                    }
 
                        
-                    } 
-                }
-                document.write('<h1> ' + nombreAleatoire + ' </h1>')
+    //                 } 
+    //             }
+    //             document.write('<h1> ' + nombreAleatoire + ' </h1>')
  
 
-            return reconnu
-        }
+    //         return reconnu
+    //     }
 
 
 
@@ -221,17 +222,17 @@
 
 
 
-    let reconnu =trouverAleatoire()
+    // let reconnu =trouverAleatoire()
 
-    if (reconnu== true){
+    // if (reconnu== true){
 
-        document.write('vous avez gagné <br>')
+    //     document.write('vous avez gagné <br>')
         
-    } 
+    // } 
 
-    else{
-       document.write('vous avez perdu')
-    }
+    // else{
+    //    document.write('vous avez perdu')
+    // }
 
 
 
