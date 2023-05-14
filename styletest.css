@@ -1,0 +1,19 @@
+#liste-taches {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+#liste-taches li {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  #liste-taches li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #liste-taches li.done {
+    text-decoration: line-through;
+    color: #999;
+  }
+  

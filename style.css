@@ -1,4 +1,4 @@
-.premiertitre{
+/* .premiertitre{
     color: red;
 }
 
@@ -20,9 +20,26 @@
 #app{
     background-color: violet;
     color: white;
-}
+} */
 
 /* 
 .disparaitre{
     display: none;
 } */
+
+#titre{
+    color:red;
+}
+#titre1{
+    color:violet
+}
+
+.someStyle{
+    color: violet;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p{
+    background-color: #731b1b;
+}

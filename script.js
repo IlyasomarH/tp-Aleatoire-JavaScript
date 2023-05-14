@@ -1,4 +1,95 @@
 
+setTimeout(function(){
+console.log('asc')
+},2000)
+
+
+
+
+
+
+// const test= document.createElement('div')
+
+// test.innerHTML="creation d'un div"
+
+// const li = document.querySelector('li')
+
+
+// li.innerHTML="salade"
+
+
+// document.querySelector('ul').insertAdjacentElement("beforeend", li)
+
+// document.querySelector('ul').insertAdjacentElement('afterend', test)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let element=document.querySelectorAll('li')
+
+// element.forEach(function(x){
+//     console.log(x.innerHTML)
+// })
+
+
+
+// setInterval(function(){
+//     document.querySelector('p').classList.toggle('someStyle')
+// }, 1000)
+
+
+// const newElemen= document.createElement('li')
+
+// newElemen.innerHTML="salade"
+
+
+// document.querySelector('ul').nextElementSibling('')
+
+// document.querySelector('ul').prepend(newElemen)
+
+
+// document.querySelector('ul').appendChild(newElemen)
+
+
+
+
+
+
+
+
+
+// let bnt = document.querySelector('button')
+// let p= document.querySelector('p')
+
+
+// bnt.addEventListener('click', function(){
+//     p.style.display='none'
+// })
+
+
+
+
+
+
+
+
+
+
+
+
 
 //   /*
 
@@ -94,6 +185,8 @@ function reverseWords(chaine){
 
 let tab=reverseWords("Le chat dort sur le tapis")
 
-document.write(tab)
+// document.write(tab)
+
+
 
 
